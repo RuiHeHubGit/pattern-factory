@@ -7,7 +7,6 @@ public class FactoryTest {
 		
 		Factory benchiFcy = BenChiFactory.getFactory();
 		System.out.println(benchiFcy.getCar().getName());
-		System.out.println(benchiFcy.getCar().getName());
 		
 		CarFactory carFactory = CarFactory.getCarFactory();
 		System.out.println(carFactory.getAouDiCar().getName());
